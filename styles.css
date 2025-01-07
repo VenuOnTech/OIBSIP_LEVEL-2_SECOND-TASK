@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header section */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Introduction Section */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.intro p {
+    max-width: 600px;
+    font-size: 1.2em;
+}
+
+/* Biography Section */
+.bio {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.bio h2 {
+    color: #004080;
+}
+
+/* Achievements Section */
+.achievements {
+    padding: 20px;
+    background-color: #eeeeee;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.achievements h2 {
+    color: #004080;
+}
+
+.achievements ul {
+    list-style-type: square;
+    font-size: 1.1em;
+}
+
+/* Inspiration Quote Section */
+.inspiration {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.inspiration blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    border-left: 4px solid #004080;
+    padding-left: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
